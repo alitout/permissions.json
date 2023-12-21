@@ -1,0 +1,600 @@
+{
+    "client": "xyz",
+    "branch": null,
+    "permissionName": "newPerm123",
+    "modules": {
+        "proccs": {
+            "moduleName": "proccs",
+            "categories": {
+                "PlatformAdmin": {
+                    "categoryName": "Platform admin",
+                    "pages": {
+                        "Dashboard": {
+                            "moduleName": "proccs",
+                            "category": "Platform admin",
+                            "pageCode": "Dashboard",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Category": {
+                            "moduleName": "proccs",
+                            "category": "Platform admin",
+                            "pageCode": "Client directory",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "BranchDirectory": {
+                            "moduleName": "proccs",
+                            "category": "Platform admin",
+                            "pageCode": "Branch directory",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        }
+                    }
+                },
+                "website": {
+                    "categoryName": "website",
+                    "pages": {
+                        "Content": {
+                            "moduleName": "proccs",
+                            "category": "website",
+                            "pageCode": "Content",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Subscriptions": {
+                            "moduleName": "proccs",
+                            "category": "website",
+                            "pageCode": "Subscriptions",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "Analytics": {
+                            "moduleName": "proccs",
+                            "category": "website",
+                            "pageCode": "Analytics",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        }
+                    }
+                },
+                "proadx": {
+                    "categoryName": "proadx",
+                    "pages": {
+                        "ADXMixDesigner": {
+                            "moduleName": "proccs",
+                            "category": "proadx",
+                            "pageCode": "ADX Mix Designer",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "ADXHistory": {
+                            "moduleName": "proccs",
+                            "category": "proadx",
+                            "pageCode": "ADX History",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "procrete": {
+            "moduleName": "procrete",
+            "categories": {
+                "QualityControl": {
+                    "categoryName": "Quality Control",
+                    "pages": {
+                        "RoutineTest": {
+                            "moduleName": "procrete",
+                            "category": "Quality Control",
+                            "pageCode": "Routine test",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Category": {
+                            "moduleName": "procrete",
+                            "category": "Quality Control",
+                            "pageCode": "Category",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "StrengthRequirements": {
+                            "moduleName": "procrete",
+                            "category": "Quality Control",
+                            "pageCode": "Strength requirements",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "MoistureTest": {
+                            "moduleName": "procrete",
+                            "category": "Quality Control",
+                            "pageCode": "Moisture test",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "MixDesign": {
+                            "moduleName": "procrete",
+                            "category": "Quality Control",
+                            "pageCode": "Mix design",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "CustomMixDesign": {
+                            "moduleName": "procrete",
+                            "category": "Quality Control",
+                            "pageCode": "Custom mix design",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "Costing": {
+                            "moduleName": "procrete",
+                            "category": "Quality Control",
+                            "pageCode": "Costing",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Production": {
+                    "categoryName": "Production",
+                    "pages": {
+                        "Analysis": {
+                            "moduleName": "procrete",
+                            "category": "Production",
+                            "pageCode": "Analysis",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Stock": {
+                            "moduleName": "procrete",
+                            "category": "Production",
+                            "pageCode": "Stock",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "OilChange": {
+                            "moduleName": "procrete",
+                            "category": "Production",
+                            "pageCode": "Oil change",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "Dispatching": {
+                            "moduleName": "procrete",
+                            "category": "Production",
+                            "pageCode": "Dispatching",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "SummaryReport": {
+                            "moduleName": "procrete",
+                            "category": "Production",
+                            "pageCode": "Summary report",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "prolab": {
+            "moduleName": "prolab",
+            "categories": {
+                "QualityControl": {
+                    "categoryName": "Quality Control",
+                    "pages": {
+                        "RoutineTest": {
+                            "moduleName": "prolab",
+                            "category": "Quality Control",
+                            "pageCode": "Routine test",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Category": {
+                            "moduleName": "prolab",
+                            "category": "Quality Control",
+                            "pageCode": "Category",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "StrengthRequirements": {
+                            "moduleName": "prolab",
+                            "category": "Quality Control",
+                            "pageCode": "Strength requirements",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "MoistureTest": {
+                            "moduleName": "prolab",
+                            "category": "Quality Control",
+                            "pageCode": "Moisture test",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "MixDesign": {
+                            "moduleName": "prolab",
+                            "category": "Quality Control",
+                            "pageCode": "Mix design",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "CustomMixDesign": {
+                            "moduleName": "prolab",
+                            "category": "Quality Control",
+                            "pageCode": "Custom mix design",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "Costing": {
+                            "moduleName": "prolab",
+                            "category": "Quality Control",
+                            "pageCode": "Costing",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Production": {
+                    "categoryName": "Production",
+                    "pages": {
+                        "Analysis": {
+                            "moduleName": "prolab",
+                            "category": "Production",
+                            "pageCode": "Analysis",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Stock": {
+                            "moduleName": "prolab",
+                            "category": "Production",
+                            "pageCode": "Stock",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "OilChange": {
+                            "moduleName": "prolab",
+                            "category": "Production",
+                            "pageCode": "Oil change",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "Dispatching": {
+                            "moduleName": "prolab",
+                            "category": "Production",
+                            "pageCode": "Dispatching",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "SummaryReport": {
+                            "moduleName": "prolab",
+                            "category": "Production",
+                            "pageCode": "Summary report",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "propave": {
+            "moduleName": "propave",
+            "categories": {
+                "QualityControl": {
+                    "categoryName": "Quality Control",
+                    "pages": {
+                        "RoutineTest": {
+                            "moduleName": "propave",
+                            "category": "Quality Control",
+                            "pageCode": "Routine test",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Category": {
+                            "moduleName": "propave",
+                            "category": "Quality Control",
+                            "pageCode": "Category",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "StrengthRequirements": {
+                            "moduleName": "propave",
+                            "category": "Quality Control",
+                            "pageCode": "Strength requirements",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "MoistureTest": {
+                            "moduleName": "propave",
+                            "category": "Quality Control",
+                            "pageCode": "Moisture test",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "MixDesign": {
+                            "moduleName": "propave",
+                            "category": "Quality Control",
+                            "pageCode": "Mix design",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "CustomMixDesign": {
+                            "moduleName": "propave",
+                            "category": "Quality Control",
+                            "pageCode": "Custom mix design",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "Costing": {
+                            "moduleName": "propave",
+                            "category": "Quality Control",
+                            "pageCode": "Costing",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Production": {
+                    "categoryName": "Production",
+                    "pages": {
+                        "Analysis": {
+                            "moduleName": "propave",
+                            "category": "Production",
+                            "pageCode": "Analysis",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        },
+                        "Stock": {
+                            "moduleName": "propave",
+                            "category": "Production",
+                            "pageCode": "Stock",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "OilChange": {
+                            "moduleName": "propave",
+                            "category": "Production",
+                            "pageCode": "Oil change",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "Dispatching": {
+                            "moduleName": "propave",
+                            "category": "Production",
+                            "pageCode": "Dispatching",
+                            "accessType": "READ_WRITE",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ_WRITE"
+                                }
+                            }
+                        },
+                        "SummaryReport": {
+                            "moduleName": "propave",
+                            "category": "Production",
+                            "pageCode": "Summary report",
+                            "accessType": "READ",
+                            "components": {
+                                "cmp1": {
+                                    "componentName": "cmp1",
+                                    "accessType": "READ"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
