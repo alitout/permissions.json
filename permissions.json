@@ -24,7 +24,7 @@
                         "ClientDirectory": {
                             "moduleName": "proccs",
                             "category": "Platform admin",
-                            "pageCode": "Client_directory",
+                            "pageCode": "Client directory",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -36,7 +36,7 @@
                         "BranchDirectory": {
                             "moduleName": "proccs",
                             "category": "Platform admin",
-                            "pageCode": "Branch_directory",
+                            "pageCode": "Branch directory",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -94,7 +94,7 @@
                         "ADXMixDesigner": {
                             "moduleName": "proccs",
                             "category": "proadx",
-                            "pageCode": "ADX_Mix_Designer",
+                            "pageCode": "ADX Mix Designer",
                             "accessType": "READ",
                             "components": {
                                 "cmp1": {
@@ -106,7 +106,7 @@
                         "ADXHistory": {
                             "moduleName": "proccs",
                             "category": "proadx",
-                            "pageCode": "ADX_History",
+                            "pageCode": "ADX History",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -128,7 +128,7 @@
                         "RoutineTest": {
                             "moduleName": "procrete",
                             "category": "Quality Control",
-                            "pageCode": "Routine_test",
+                            "pageCode": "Routine test",
                             "accessType": "READ",
                             "components": {
                                 "cmp1": {
@@ -152,7 +152,7 @@
                         "StrengthRequirements": {
                             "moduleName": "procrete",
                             "category": "Quality Control",
-                            "pageCode": "Strength_requirements",
+                            "pageCode": "Strength requirements",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -164,7 +164,7 @@
                         "MoistureTest": {
                             "moduleName": "procrete",
                             "category": "Quality Control",
-                            "pageCode": "Moisture_test",
+                            "pageCode": "Moisture test",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -176,7 +176,7 @@
                         "MixDesign": {
                             "moduleName": "procrete",
                             "category": "Quality Control",
-                            "pageCode": "Mix_design",
+                            "pageCode": "Mix design",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -188,7 +188,7 @@
                         "CustomMixDesign": {
                             "moduleName": "procrete",
                             "category": "Quality Control",
-                            "pageCode": "Custom_mix_design",
+                            "pageCode": "Custom mix design",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -241,7 +241,7 @@
                         "OilChange": {
                             "moduleName": "procrete",
                             "category": "Production",
-                            "pageCode": "Oil_change",
+                            "pageCode": "Oil change",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -265,7 +265,7 @@
                         "SummaryReport": {
                             "moduleName": "procrete",
                             "category": "Production",
-                            "pageCode": "Summary_report",
+                            "pageCode": "Summary report",
                             "accessType": "READ",
                             "components": {
                                 "cmp1": {
@@ -287,7 +287,7 @@
                         "RoutineTest": {
                             "moduleName": "prolab",
                             "category": "Quality Control",
-                            "pageCode": "Routine_test",
+                            "pageCode": "Routine test",
                             "accessType": "READ",
                             "components": {
                                 "cmp1": {
@@ -311,7 +311,7 @@
                         "StrengthRequirements": {
                             "moduleName": "prolab",
                             "category": "Quality Control",
-                            "pageCode": "Strength_requirements",
+                            "pageCode": "Strength requirements",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -323,7 +323,7 @@
                         "MoistureTest": {
                             "moduleName": "prolab",
                             "category": "Quality Control",
-                            "pageCode": "Moisture_test",
+                            "pageCode": "Moisture test",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -335,7 +335,7 @@
                         "MixDesign": {
                             "moduleName": "prolab",
                             "category": "Quality Control",
-                            "pageCode": "Mix_design",
+                            "pageCode": "Mix design",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -347,7 +347,7 @@
                         "CustomMixDesign": {
                             "moduleName": "prolab",
                             "category": "Quality Control",
-                            "pageCode": "Custom_mix_design",
+                            "pageCode": "Custom mix design",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -400,7 +400,7 @@
                         "OilChange": {
                             "moduleName": "prolab",
                             "category": "Production",
-                            "pageCode": "Oil_change",
+                            "pageCode": "Oil change",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -424,7 +424,7 @@
                         "SummaryReport": {
                             "moduleName": "prolab",
                             "category": "Production",
-                            "pageCode": "Summary_report",
+                            "pageCode": "Summary report",
                             "accessType": "READ",
                             "components": {
                                 "cmp1": {
@@ -446,7 +446,7 @@
                         "RoutineTest": {
                             "moduleName": "propave",
                             "category": "Quality Control",
-                            "pageCode": "Routine_test",
+                            "pageCode": "Routine test",
                             "accessType": "READ",
                             "components": {
                                 "cmp1": {
@@ -470,7 +470,7 @@
                         "StrengthRequirements": {
                             "moduleName": "propave",
                             "category": "Quality Control",
-                            "pageCode": "Strength_requirements",
+                            "pageCode": "Strength requirements",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -482,7 +482,7 @@
                         "MoistureTest": {
                             "moduleName": "propave",
                             "category": "Quality Control",
-                            "pageCode": "Moisture_test",
+                            "pageCode": "Moisture test",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -494,7 +494,7 @@
                         "MixDesign": {
                             "moduleName": "propave",
                             "category": "Quality Control",
-                            "pageCode": "Mix_design",
+                            "pageCode": "Mix design",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -506,7 +506,7 @@
                         "CustomMixDesign": {
                             "moduleName": "propave",
                             "category": "Quality Control",
-                            "pageCode": "Custom_mix_design",
+                            "pageCode": "Custom mix design",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -559,7 +559,7 @@
                         "OilChange": {
                             "moduleName": "propave",
                             "category": "Production",
-                            "pageCode": "Oil_change",
+                            "pageCode": "Oil change",
                             "accessType": "READ_WRITE",
                             "components": {
                                 "cmp1": {
@@ -583,7 +583,7 @@
                         "SummaryReport": {
                             "moduleName": "propave",
                             "category": "Production",
-                            "pageCode": "Summary_report",
+                            "pageCode": "Summary report",
                             "accessType": "READ",
                             "components": {
                                 "cmp1": {
