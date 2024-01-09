@@ -47,12 +47,12 @@
                         }
                     }
                 },
-                "website": {
-                    "categoryName": "website",
+                "Website": {
+                    "categoryName": "Website",
                     "pages": {
                         "Content": {
                             "moduleName": "proccs",
-                            "category": "website",
+                            "category": "Website",
                             "pageCode": "Content",
                             "accessType": "READ",
                             "components": {
@@ -64,7 +64,7 @@
                         },
                         "Subscriptions": {
                             "moduleName": "proccs",
-                            "category": "website",
+                            "category": "Website",
                             "pageCode": "Subscriptions",
                             "accessType": "READ_WRITE",
                             "components": {
@@ -76,7 +76,7 @@
                         },
                         "Analytics": {
                             "moduleName": "proccs",
-                            "category": "website",
+                            "category": "Website",
                             "pageCode": "Analytics",
                             "accessType": "READ_WRITE",
                             "components": {
@@ -88,12 +88,12 @@
                         }
                     }
                 },
-                "proadx": {
-                    "categoryName": "proadx",
+                "PROadx": {
+                    "categoryName": "PROadx",
                     "pages": {
                         "ADXMixDesigner": {
                             "moduleName": "proccs",
-                            "category": "proadx",
+                            "category": "PROadx",
                             "pageCode": "ADX Mix Designer",
                             "accessType": "READ",
                             "components": {
@@ -105,7 +105,7 @@
                         },
                         "ADXHistory": {
                             "moduleName": "proccs",
-                            "category": "proadx",
+                            "category": "PROadx",
                             "pageCode": "ADX History",
                             "accessType": "READ_WRITE",
                             "components": {
