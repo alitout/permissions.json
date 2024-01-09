@@ -21,7 +21,7 @@
                                 }
                             }
                         },
-                        "Category": {
+                        "ClientDirectory": {
                             "moduleName": "proccs",
                             "category": "Platform admin",
                             "pageCode": "Client_directory",
