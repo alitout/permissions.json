@@ -9,18 +9,6 @@
                 "PlatformAdmin": {
                     "categoryName": "Platform admin",
                     "pages": {
-                        "Dashboard": {
-                            "moduleName": "proccs",
-                            "category": "Platform admin",
-                            "pageCode": "Dashboard",
-                            "accessType": "READ",
-                            "components": {
-                                "cmp1": {
-                                    "componentName": "cmp1",
-                                    "accessType": "READ"
-                                }
-                            }
-                        },
                         "ClientDirectory": {
                             "moduleName": "proccs",
                             "category": "Platform admin",
